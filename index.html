@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>thomp</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.14/semantic.min.css">
-    <!-- NOTE: Add the JS CDN if something isn't working properly -->
-  </head>
-  <body>
-    <div class="container">
-      <h1>Michael Thompson</h1>
-      <ul>
-        <li>Aspiring software engineer</li>
-        <li>Musician</li>
+
+<head>
+  <meta charset="utf-8">
+  <title>Michael Thompson</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.14/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.14/dist/semantic.min.js"></script>
+  <style media="screen">
+    body {
+      background-color: black;
+    }
+    .container {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ui container">
+    <div class="intro ui inverted segment">
+      <h1 class="ui inverted huge header">Michael Thompson</h1>
+      <ul class="ui inverted list">
+        <li class="item">Aspiring software engineer</li>
+        <li class="item">Musician</li>
       </ul>
-      <p>Hi! Welcome to my page! Feel free to explore some of the things I've
-      made.</p>
-      <div class="Projects">
-        <ul>
-          <li><a href="http://mmbracketbuilder.herokuapp.com">B[racket] B[uilder]
-          </a>. App to help you build your March Madness Bracket
-          </li>
-        </ul>
-      </div>
+      <p>Hi! Welcome to my page! Feel free to explore some of the things I've made.
+      </p>
+      <h2 class="ui inverted large header">LANGUAGES AND TOOLS</h2>
+      <p>Python, Java, SQL, JavaScript, HTML, CSS | Flask, Git, Github, Heroku, Unix Shell/Bash</p>
     </div>
 
+    <div class="projects ui inverted segment">
+      <h2 class="ui inverted large header">PROJECTS</h2>
+      <ul class="ui inverted list">
+        <li class="item">
+          <a class="ui inverted" href="https://github.com/aspic2/ncaabb">B[racket] B[uilder]
+          </a> -  App to help you build your March Madness Bracket
+        </li>
+        <li class="item">
+          <a class="ui inverted" href="https://github.com/aspic2/firstDraft/">First Draft</a> -
+          Another sports app, this time to help with Fantasy Football.
+          <em>Still in development!</em>
+        </li>
+      </ul>
+      </ul>
+    </div>
 
+  </div>
+</body>
 
-  </body>
 </html>
