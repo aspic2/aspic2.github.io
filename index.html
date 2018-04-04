@@ -4,27 +4,42 @@
 <head>
   <meta charset="utf-8">
   <title>Michael Thompson</title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.14/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.14/dist/semantic.min.js"></script>
-  <style rel="stylesheet" type="text/css" href="/style.css">
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
   <div class="ui container">
     <div class="intro ui inverted segment">
       <h1 class="ui inverted huge header">Michael Thompson</h1>
-      <ul class="ui inverted list">
-        <span>
+      <ul class="ui inverted horizontal list">
           <li class="item">Aspiring software engineer</li>
           <li class="item">Musician</li>
-        </span>
-
       </ul>
-      <p>Hi! Welcome to my page! Feel free to explore some of the things I've made.
-      </p>
-      <h2 class="ui inverted large header">LANGUAGES AND TOOLS</h2>
-      <p>Python, Java, SQL, JavaScript, HTML, CSS | Flask, Git, Github, Heroku, Unix Shell/Bash</p>
+
+
+      <h3>Hi, and welcome to my page! Feel free to explore some of the things I've made.
+      </h3>
+      <div class="ui grid">
+        <div class="eight wide column">
+          <h2 class="ui inverted large header">LANGUAGES</h2>
+        </div>
+        <div class="eight wide column">
+          <h2 class="ui inverted large header">TOOLS</h2>
+        </div>
+        <div class="eight wide column">
+          Python, Java, SQL, JavaScript, HTML, CSS
+        </div>
+        <div class="eight wide column">
+          Flask, Git, Github, Heroku, Unix Shell/Bash
+        </div>
+
+      </div>
     </div>
 
     <div class="projects ui inverted segment">
@@ -35,14 +50,39 @@
           </a> -  App to help you build your March Madness Bracket
         </li>
         <li class="item">
-        <a class="ui inverted" href="https://github.com/aspic2/jobs-by-neighborhood">Jobs By Neighborhood</a> - Job board for blue-collar positions in Chicagoland
+        <a class="ui inverted"
+        href="https://github.com/aspic2/jobs-by-neighborhood">Jobs By Neighborhood</a>
+        - Job board for blue-collar positions in Chicagoland
       <em>WORK IN PROGRESS</em> </li>
         <li class="item">
-          <a class="ui inverted" href="https://github.com/aspic2/firstDraft/">First Draft</a> -
+          <a class="ui inverted" href="https://github.com/aspic2/firstDraft/">
+          First Draft</a> -
           Another sports app, this time to help with Fantasy Football.
           <em>WORK IN PROGRESS</em>
         </li>
-      </ul>
+        <li class="item">
+          <a class="ui inverted" href="https://github.com/aspic2/project13/">Project13</a> -
+          <em>WORK IN PROGRESS</em> - Ad Reporting Platform
+          <ul>
+            <li>Designed tool to unify 1st and 3rd party ad metrics,
+              simplify campaign reporting, and reduce errors.</li>
+            <li>Prototyped for SASIA (1st party) and DCM (3rd party),
+              with potential for other vendors.</li>
+          </ul>
+
+        </li>
+        <li class="item"> <a class="ui inverted" href="https://github.com/aspic2/DFP-CreativeShare">
+          CreativeShare</a> - Ad Trafficking Web Tool
+          <ul>
+            <li>Created Java application that sets up ad tags in Cars.com's
+              ad server using Google Ads API.</li>
+            <li>Streamlined a manual, error-prone process and saved team approx.
+              120 work hours per month.</li>
+            <li>Quickly learned Maven, Git, and Java web framework Spring
+              to keep code maintainable and to integrate the tool
+              with Cars.com's internal web application environment.</li>
+          </ul>
+        </li>
       </ul>
     </div>
 
@@ -50,7 +90,11 @@
       <h2 class="ui inverted large header">CONTRIBUTIONS</h2>
       <ul class="ui inverted list">
         <li class="item">
-          (Very small) contributor to EFF.org's <a class="ui inverted" href="https://github.com/EFForg/privacybadger/pull/1927">Privacy Badger</a>
+          (Very small) contributor to EFF.org's <a class="ui inverted"
+          href="https://github.com/EFForg/privacybadger/pull/1927">Privacy
+          Badger</a>. I fixed a scrolling issue on the options pages (issue <a
+          class="ui inverted"
+          href="https://github.com/EFForg/privacybadger/issues/1918">#1918</a>)
         </li>
 
       </ul>
