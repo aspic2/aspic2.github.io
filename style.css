@@ -5,6 +5,18 @@ html {
 body {
   background-color: black;
 }
+
 .container {
   color: white;
+}
+
+#iAm {
+  position: relative;
+  text-align: center;
+}
+
+#iAmText {
+  position: absolute;
+  bottom: 1em;
+  display: inline;
 }
