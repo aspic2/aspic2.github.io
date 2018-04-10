@@ -10,8 +10,9 @@ body {
   color: white;
 }
 
-ul .description {
+ul .hide {
   visibility: collapse;
+  height: 0;
 }
 
 #iAm {
