@@ -10,6 +10,10 @@ body {
   color: white;
 }
 
+ul .description {
+  visibility: collapse;
+}
+
 #iAm {
   position: relative;
   text-align: center;
