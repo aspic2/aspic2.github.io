@@ -34,3 +34,10 @@ ul .hide {
   bottom: 1em;
   display: inline;
 }
+
+.prompt::before {
+  content: ">" !important;
+  color: white !important;
+  font-family: "Lucida Console", Monaco, monospace !important;
+  font-weight: bold !important;
+}
