@@ -42,7 +42,7 @@ ul .hide {
 }
 
 .prompt::before {
-  content: ">" !important;
+  content: "~$" !important;
   color: white !important;
   font-family: "Lucida Console", Monaco, monospace !important;
   font-weight: bold !important;
