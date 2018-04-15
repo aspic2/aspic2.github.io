@@ -14,14 +14,14 @@
 <body>
   <div class="ui container">
     <div class="intro ui inverted segment">
-      <div class="ui grid">
+      <div class="ui stackable grid">
         <div class="eight wide column">
           <h1 class="ui inverted huge header">Michael Thompson</h1>
         </div>
         <div class="eight wide column" id="iAm">
-          <h3 class="ui inverted header" id="iAmText">Software Developer</h3>
+          <h1 class="ui inverted header">Software Developer</h1>
         </div>
-    </div>
+
       <!-- TODO: Better spacing here -->
       <h2 id="goal">My Goal: to make your life easier through software
       </h2>
@@ -32,21 +32,24 @@
             and I would like to do the same for you.</p>
           </div>
         </div>
+      </div>
     </div>
     <div class="intro ui inverted segment">
       <!-- semantic ui grids are 16 columns wide -->
-      <div class="ui grid">
-        <div class="eight wide column">
-          <h2 class="ui inverted large header">LANGUAGES</h2>
-        </div>
-        <div class="eight wide column">
-          <h2 class="ui inverted large header">TOOLS</h2>
-        </div>
-        <div class="eight wide column">
-          Python, SQL, JavaScript, Java, HTML, CSS
-        </div>
-        <div class="eight wide column">
-          Django, Flask, Git, Github, Heroku, Unix Shell/Bash
+      <div class="ui stackable grid">
+        <div class="row">
+          <div class="eight wide column">
+            <h2 class="ui inverted large header">LANGUAGES</h2>
+            <div class="">
+              Python, SQL, JavaScript, Java, HTML, CSS
+            </div>
+          </div>
+          <div class="eight wide column">
+            <h2 class="ui inverted large header">TOOLS</h2>
+            <div class="">
+              Django, Flask, Git, Github, Heroku, Unix Shell/Bash
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -119,8 +122,9 @@
           <span class="title">
             <a class="ui inverted"
               href="https://github.com/EFForg/privacybadger/pull/1927">Privacy
-              Badger</a>
-          </span>. I fixed a scrolling issue on the options pages (issue <a
+            <!-- Keep Badger</a></span>. on 1 line to avoid unwanted spaces -->
+              Badger</a></span>.
+              I fixed a scrolling issue on the options pages (issue <a
           class="ui inverted"
           href="https://github.com/EFForg/privacybadger/issues/1918">#1918</a>)
         </li>
